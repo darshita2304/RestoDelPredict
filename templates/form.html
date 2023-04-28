@@ -1,0 +1,76 @@
+
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="Delivery_person_Age">Delivery_person_Age:</label>
+        <input type="text" id="Delivery_person_Age" name="Delivery_person_Age" placeholder="Enter Delivery_person_Aget value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Delivery_person_Ratings">Delivery_person_Ratingspth:</label>
+        <input type="text" id="Delivery_person_Ratings" name="Delivery_person_Ratings" placeholder="Enter Delivery_person_Ratings (float)">
+    </div>
+
+    <div class="form-group">
+    <label for="Weather_conditions">Weather_conditions:</label>
+    <select id="Weather_conditions" name="Weather_conditions">
+        <option value="Fog">Fog</option>
+        <option value="Stormy">Stormy</option>
+        <option value="Sandstorms">Sandstorms</option>
+        <option value="Windy">Windy</option>
+        <option value="Cloudy">Cloudy</option>
+        <option value="Sunny">Sunny</option>
+    </select>
+    </div>
+
+    <div class="form-group">
+    <label for="Road_traffic_density">Road_traffic_density:</label>
+    <select id="Road_traffic_density" name="Road_traffic_density">
+        <option value="Jam">Jam</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+    </div>
+
+    <div class="form-group">
+    <label for="Vehicle_condition">Vehicle_condition:</label>
+    <select id="Vehicle_condition" name="Vehicle_condition">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    </div>
+    
+    <div class="form-group">
+    <label for="multiple_deliveries">multiple_deliveries:</label>
+    <select id="multiple_deliveries" name="multiple_deliveries">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    </div>
+
+    <div class="form-group">
+    <label for="City">City:</label>
+    <select id="City" name="City">
+        <option value="Metropolitian">Metropolitian</option>
+        <option value="Urban">Urban</option>
+        <option value="Semi-Urban">Semi-Urban</option>
+    </select>
+    </div>
+
+    <div class="form-group">
+        <label for="distance">distance:</label>
+        <input type="text" id="distance" name="distance" placeholder="Enter distance in km value (float)">
+    </div>
+  
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

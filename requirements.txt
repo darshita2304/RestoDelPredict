@@ -6,4 +6,5 @@ matplotlib
 scikit-learn
 seaborn
 setuptools
+pytimeparse
 -e .

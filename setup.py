@@ -17,7 +17,7 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup(
-    name='RestoDelPredoct',
+    name='RestoDelPredict',
     version='0.0.1',
     author='Darshita',
     author_email='dppaghadal@gmail.com',
